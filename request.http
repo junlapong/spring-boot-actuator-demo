@@ -1,5 +1,5 @@
 #
-# REST Client
+# VSCode REST Client
 # https://marketplace.visualstudio.com/items?itemName=humao.rest-client
 #
 ####################################
@@ -20,5 +20,8 @@ GET {{host}}/actuator/metrics HTTP/1.1
 
 ###
 GET {{host}}/actuator/metrics/jvm.memory.used HTTP/1.1
+
+###
+GET {{host}}/actuator/prometheus HTTP/1.1
 
 ### END ###
