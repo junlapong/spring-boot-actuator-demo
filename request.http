@@ -1,0 +1,24 @@
+#
+# REST Client
+# https://marketplace.visualstudio.com/items?itemName=humao.rest-client
+#
+####################################
+
+@host = http://localhost:8080
+
+###
+GET {{host}}/actuator HTTP/1.1
+
+###
+GET {{host}}/actuator/health HTTP/1.1
+
+###
+GET {{host}}/actuator/info HTTP/1.1
+
+###
+GET {{host}}/actuator/metrics HTTP/1.1
+
+###
+GET {{host}}/actuator/metrics/jvm.memory.used HTTP/1.1
+
+### END ###
